@@ -17,4 +17,4 @@ pkg install metasploit -y
 
 pkg install nmap -y
 
-echo "Done with the install ! would you like the screen cleared?"
+echo "Done with the install!"
