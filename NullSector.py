@@ -8,7 +8,7 @@ import time
 
 print("Hello World")
 
-print("Welcome to Posion_Gen")
+print("Welcome to NullSector")
 print("This script will assits in generating")
 print("msfvenom payloads on your cellphone")
 
