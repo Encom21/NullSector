@@ -40,8 +40,9 @@ if start == "y":
 
     print("Now that the file is created would you like to start metasploit?...")
     meta = input("[y/n]")
-    
-    print("Metasploit starting")
+   
+    if meta == "y":
+        print("Metasploit starting")
 
-else: 
-  print("See you soon")
+    else: 
+        print("See you soon")
