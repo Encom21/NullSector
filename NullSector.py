@@ -22,7 +22,7 @@ if start == "y":
     LPORT = input("What port would you like to listen on:")
     print("The IP address is set to :" + LHOST + " on port:" + LPORT)
     print("OK now setting up the payload...")
-    gen1 = input("What would you like:[p(powershell)/e(.exe)] any other command to exit")
+    gen1 = input("What would you like:[p(powershell)/e(.exe)] press Enter to exit ")
 
     if gen1 == "p":
         print("making powershell")
